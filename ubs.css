@@ -120,9 +120,7 @@ nav {
     margin-top: 25px;
     margin-bottom: 25px;
     
-    a {
-        font-size: 40px;
-        color: rgb(100, 30, 0);
+
 
     }
     h2 {
@@ -199,6 +197,12 @@ nav {
                 margin-top: 0px;
                 margin-bottom: 0px;
             }
+            
+            a {
+                font-size: 30px;
+                color: rgb(100, 30, 0);
+
+            }    
         }
     }
 }
