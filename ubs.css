@@ -119,8 +119,9 @@ nav {
     padding: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+    
     a {
-        font-size: 35px;
+        font-size: 40px;
         color: rgb(100, 30, 0);
 
     }
