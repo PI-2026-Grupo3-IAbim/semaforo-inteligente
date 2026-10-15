@@ -61,8 +61,8 @@ nav {
     justify-content: space-between;
 }
 
-.aa,
-.aaa {
+.pa1,
+.pa2 {
     background-color: burlywood;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgb(174, 165, 135);
@@ -71,17 +71,22 @@ nav {
     padding-right: 25px;
     padding-top: 5px;
     box-sizing: border-box;
+    
     h2{
         color: rgb(100, 30, 0);
         
     }
 }
 
-.aa {
+.pa2 li {
+    padding-top: 20px;
+}
+
+.pa1 {
     margin-bottom: 25px;
 }
 
-.aaaa {
+.pa3 {
     width: 40%;
     background-color: burlywood;
     border-radius: 25px;
@@ -93,11 +98,10 @@ nav {
     justify-content: space-around;
 }
 
-.aaaa strong {
+.pa3 strong {
     font-size: 30px;
     color: rgb(104, 0, 0);
 }
-
 .section {
     background-color: burlywood;
     border-radius: 25px;
