@@ -102,7 +102,7 @@ nav {
     font-size: 30px;
     color: rgb(104, 0, 0);
 }
-.section {
+.quad {
     background-color: burlywood;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgb(174, 165, 135);
@@ -131,7 +131,11 @@ nav {
     padding: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+    a {
+        font-size: 30px;
+        color: rgb(100, 30, 0);
 
+    }
     h2 {
         margin-top: 0px;
         margin-bottom: 30px;
