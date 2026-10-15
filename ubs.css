@@ -102,18 +102,6 @@ nav {
     font-size: 30px;
     color: rgb(104, 0, 0);
 }
-.quad {
-    background-color: burlywood;
-    border-radius: 25px;
-    box-shadow: 10px 10px 5px rgb(174, 165, 135);
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 5px;
-    margin-top: 25px;
-    text-align: center;
-
-}
 
 .sem {
     margin-top: 0px;
@@ -124,7 +112,7 @@ nav {
     color: rgb(100, 30, 0);
 }
 
-.cuadrado {
+.quad {
     background-color: burlywood;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgb(174, 165, 135);
