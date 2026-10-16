@@ -1,7 +1,7 @@
 body {
     background-color: cornsilk;
     font-size: 25px;
-    margin: 0 20px;
+    margin: 0 50px;
 
 }
 
@@ -13,7 +13,7 @@ nav {
     background-color: burlywood;
     box-shadow: 10px 10px 5px rgb(175, 165, 135);
     padding: 20px;
-
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -45,8 +45,8 @@ nav {
     justify-content: space-between !important;
     align-items: stretch !important;
     gap: 20px;
-    margin-top: 25px;
     width: 100%;
+    margin-bottom: 30px;
 
     h2 {
         font-size: 45px;
@@ -58,7 +58,8 @@ nav {
     width: 58%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 30px;
 }
 
 .pa1,
@@ -71,19 +72,19 @@ nav {
     padding-right: 25px;
     padding-top: 5px;
     box-sizing: border-box;
-    
-    h2{
+
+    h2 {
         color: rgb(100, 30, 0);
-        
+
     }
 }
 
-.pa2 li {
-    padding-top: 20px;
-}
-
-.pa1 {
-    margin-bottom: 25px;
+.pa2 {
+    margin-bottom: 0px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .pa3 {
@@ -96,6 +97,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
 
 .pa3 strong {
@@ -103,129 +105,136 @@ nav {
     color: rgb(104, 0, 0);
 }
 
-.sem {
-    margin-top: 0px;
+
+
+
+
+
+
+
+
+
+.noth {
+    background-color: burlywood;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
+    padding: 20px;
+        p{
+        text-align: center;
+        color: burlywood;
+    }
 }
 
-.sem2 {
-    margin-bottom: 0px;
-    color: rgb(100, 30, 0);
+.noth2 {
+    background-color: burlywood;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
+    p{
+        text-align: center;
+        color: burlywood;
+    }
 }
+
+
+
+
+
+
+
+
 
 .quad {
     background-color: burlywood;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px rgb(174, 165, 135);
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
     padding: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 30px;
+
+}
 
 
-    }
-    h2 {
-        margin-top: 0px;
-        margin-bottom: 30px;
-        color: rgb(100, 30, 0);
+h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(100, 30, 0);
 
-        span {
-            background-color: burlywood;
-            border-radius: 20px;
-            box-shadow: 5px 5px 5px rgb(174, 165, 135);
-            padding: 15px;
-            border: 3px solid rgb(190, 160, 110);
-            display: inline-block;
-        }
-    }
-
-    .joia {
+    span {
         background-color: burlywood;
         border-radius: 20px;
-        box-shadow: 5px 5px 5px rgb(174, 165, 135);
-        padding: 20px;
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
+        padding: 15px;
         border: 3px solid rgb(190, 160, 110);
-        margin-bottom: 20px;
+        display: inline-block;
+    }
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+
+    h3 {
+        font-size: 30px;
+        color: rgb(100, 30, 0);
+
+    }
+
+    .card-modelo {
+        background-color: burlywood;
+        border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
+        padding: 20px;
+
+
+        border: 3px solid rgb(190, 160, 110);
+        flex: 1;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
 
         h3 {
-            margin-bottom: 0px;
-            margin-top: 5px;
+            margin-top: 0px;
+            margin-bottom: 25px;
             color: rgb(100, 30, 0);
 
         }
 
         p {
             margin-top: 0px;
-            margin-bottom: 5px;
+            margin-bottom: 0px;
         }
-    }
 
-    .grid {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        gap: 20px;
-
-        h3 {
+        a {
             font-size: 30px;
             color: rgb(100, 30, 0);
 
         }
-
-        .card-modelo {
-            background-color: burlywood;
-            border-radius: 20px;
-            box-shadow: 5px 5px 5px rgb(174, 165, 135);
-            padding: 20px;
-
-
-            border: 3px solid rgb(190, 160, 110);
-            flex: 1;
-            box-sizing: border-box;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-
-            h3 {
-                margin-top: 0px;
-                margin-bottom: 25px;
-                color: rgb(100, 30, 0);
-
-            }
-
-            p {
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
-            
-            a {
-                font-size: 30px;
-                color: rgb(100, 30, 0);
-
-            }    
-        }
     }
+
 }
 
-.aoba {
+
+.squad {
     background-color: burlywood;
     border-radius: 25px;
     box-shadow: 10px 10px 5px rgb(174, 165, 135);
     padding: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     gap: 25px;
+
 }
 
-.aoba .titulo {
+.squad .titulo {
     margin-top: 0;
     margin-bottom: 10px;
     color: rgb(100, 30, 0);
 }
 
-.aoba .titulo span {
+.squad .titulo span {
     background-color: burlywood;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(174, 165, 135);
