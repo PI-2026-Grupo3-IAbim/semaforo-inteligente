@@ -250,13 +250,13 @@ h2 {
 
 .linha-intercalada {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     gap: 20px;
 }
 
 .caixa-conteudo {
-    flex: 0 0 calc(70% - 10px);
+    flex: 1;
     background-color: burlywood;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(174, 165, 135);
@@ -278,7 +278,8 @@ h2 {
 }
 
 .caixa-imagem {
-    flex: 0 0 calc(30% - 10px);
+    flex: 0 0 320px;
+    width: 320px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 5px 5px rgb(174, 165, 135);
@@ -290,7 +291,7 @@ h2 {
 .caixa-imagem img {
     width: 100%;
     height: 100%;
-    min-height: 180px;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
 }
