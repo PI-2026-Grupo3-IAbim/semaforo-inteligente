@@ -2,7 +2,6 @@ body {
     background-color: cornsilk;
     font-size: 25px;
     margin: 0 50px;
-
 }
 
 nav {
@@ -12,7 +11,10 @@ nav {
     border-bottom-right-radius: 25px;
     background-color: burlywood;
     box-shadow: 10px 10px 5px rgb(175, 165, 135);
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     margin-bottom: 25px;
 }
 
@@ -31,7 +33,7 @@ nav {
     margin-right: 15px;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 5px 5px 5px rgb(174, 165, 135);
+    box-shadow: 5px 5px 5px rgb(175, 165, 135);
 }
 
 .caixa-link a {
@@ -42,11 +44,11 @@ nav {
 
 .sec-tipo-01 {
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: space-between 25px !important;
     align-items: stretch !important;
-    gap: 20px;
-    width: 100%;
+    gap: 25px;
     margin-bottom: 30px;
+    width: 100%;
 
     h2 {
         font-size: 45px;
@@ -55,18 +57,18 @@ nav {
 }
 
 .coluna-esquerda {
-    width: 58%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 30px;
+    gap: 25px;
 }
 
 .pa1,
 .pa2 {
     background-color: burlywood;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px rgb(174, 165, 135);
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
@@ -75,12 +77,20 @@ nav {
 
     h2 {
         color: rgb(100, 30, 0);
-        margin-bottom: 0;
+        margin-bottom: 15;
         margin-top: 10px;
     }
 
-    li{
+    li {
         margin-top: 25px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
     }
 }
 
@@ -90,19 +100,20 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
+
 }
 
 .pa3 {
     width: 40%;
     background-color: burlywood;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px rgb(174, 165, 135);
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
     padding: 25px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    line-height: 1.4;
 
 }
 
@@ -122,10 +133,10 @@ nav {
 
 .noth {
     background-color: burlywood;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 10px 10px 5px rgb(175, 165, 135);
-    padding: 20px;
-        p{
+
+    p {
         text-align: center;
         color: burlywood;
     }
@@ -133,13 +144,19 @@ nav {
 
 .noth2 {
     background-color: burlywood;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 10px 10px 5px rgb(175, 165, 135);
-    p{
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
+    p {
         text-align: center;
         color: burlywood;
     }
 }
+
+
+
 
 
 
@@ -167,7 +184,7 @@ h2 {
     span {
         background-color: burlywood;
         border-radius: 20px;
-    box-shadow: 10px 10px 5px rgb(175, 165, 135);
+        box-shadow: 5px 5px 5px rgb(175, 165, 135);
         padding: 15px;
         border: 3px solid rgb(190, 160, 110);
         display: inline-block;
@@ -189,7 +206,7 @@ h2 {
     .card-modelo {
         background-color: burlywood;
         border-radius: 20px;
-    box-shadow: 10px 10px 5px rgb(175, 165, 135);
+        box-shadow: 5px 5px 5px rgb(175, 165, 135);
         padding: 20px;
 
 
@@ -222,28 +239,54 @@ h2 {
 
 }
 
+.cron {
+    background-color: burlywood;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
+    padding: 25px;
+    margin-bottom: 20px;
+
+    h2 {
+        margin-top: 0px;
+        color: rgb(100, 30, 0);
+        background-color: burlywood;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgb(175, 165, 135);
+        padding: 15px;
+        border: 3px solid rgb(190, 160, 110);
+        display: inline-block;
+    }
+
+    p {
+        background-color: burlywood;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgb(175, 165, 135);
+        padding: 20px;
+        border: 3px solid rgb(190, 160, 110);
+        margin: 0;
+    }
+}
 
 .squad {
     background-color: burlywood;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px rgb(174, 165, 135);
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
     padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
 
 }
 
 .squad .titulo {
-    margin-top: 0;
-    margin-bottom: 10px;
+margin: 0;
     color: rgb(100, 30, 0);
 }
 
 .squad .titulo span {
     background-color: burlywood;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgb(174, 165, 135);
+    box-shadow: 5px 5px 5px rgb(175, 165, 135);
     padding: 15px;
     border: 3px solid rgb(190, 160, 110);
     display: inline-block;
@@ -253,14 +296,14 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 20px;
+    gap: 15px;
 }
 
 .caixa-conteudo {
     flex: 1;
     background-color: burlywood;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgb(174, 165, 135);
+    box-shadow: 5px 5px 5px rgb(175, 165, 135);
     padding: 20px;
     border: 3px solid rgb(190, 160, 110);
     box-sizing: border-box;
@@ -283,7 +326,7 @@ h2 {
     width: 320px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 5px 5px 5px rgb(174, 165, 135);
+    box-shadow: 5px 5px 5px rgb(175, 165, 135);
     border: 3px solid rgb(190, 160, 110);
     box-sizing: border-box;
     display: flex;
@@ -311,7 +354,7 @@ h2 {
     width: 40%;
     background-color: burlywood;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px rgb(174, 165, 135);
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -323,7 +366,7 @@ h2 {
 .secao-invertida .subcaixa {
     background-color: burlywood;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgb(174, 165, 135);
+    box-shadow: 5px 5px 5px rgb(175, 165, 135);
     border: 3px solid rgb(190, 160, 110);
     padding: 20px;
     box-sizing: border-box;
@@ -369,7 +412,7 @@ h2 {
     width: 58%;
     background-color: burlywood;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px rgb(174, 165, 135);
+    box-shadow: 10px 10px 5px rgb(175, 165, 135);
     padding: 25px;
     box-sizing: border-box;
     display: flex;
@@ -390,7 +433,7 @@ h2 {
     height: 0;
     overflow: hidden;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px rgb(174, 165, 135);
+    box-shadow: 5px 5px 5px rgb(175, 165, 135);
     border: 3px solid rgb(190, 160, 110);
 }
 
